@@ -30,12 +30,9 @@ function App() {
       <div style={{ width: "40%", margin: "auto" }}>
          {/* upload box */}
          <div {...dragAndDropProps.events}>
-            {dragAndDropProps.isDragging ? (
-               "Dragging..."
-            ) : (
+            {dragAndDropProps.isDragging ? ( "Dragging...") : (
                <label htmlFor="upload">
-                  Upload
-                  / file size limit : {fileSizeUnit(sizeLimit)} / allow file : {allowExtensions.join(" , ")}
+                  Upload / file size limit : {fileSizeUnit(sizeLimit)} / allow file : {allowExtensions.join(" , ")}
                   <input type="file" id="upload" onChange={(e) => onSetFile(e.target.files as FileList)} hidden />
                </label>
             )}
