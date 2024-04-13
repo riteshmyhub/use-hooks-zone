@@ -1,5 +1,4 @@
 import { DragEvent, useState } from "react";
-
 interface FileItem extends Blob {
    name: string;
    size: number;
