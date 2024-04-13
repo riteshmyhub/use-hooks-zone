@@ -3,7 +3,8 @@
 use hooks zone package is helper hooks for building react project.
 
 ## hooks
-  - useFileUploader hook
+
+-  useFileUploader hook
 
 ## 1 useFileUploader
 
@@ -34,14 +35,8 @@ function App() {
             ) : (
                <label htmlFor="upload">
                   Upload
-                  <br /> file size limit : {fileSizeUnit(sizeLimit)}
-                  <br /> allow file : {allowExtensions.join(" , ")}
-                  <input //
-                     type="file"
-                     id="upload"
-                     onChange={(e) => onSetFile(e.target.files as FileList)}
-                     hidden
-                  />
+                  / file size limit : {fileSizeUnit(sizeLimit)} / allow file : {allowExtensions.join(" , ")}
+                  <input type="file" id="upload" onChange={(e) => onSetFile(e.target.files as FileList)} hidden />
                </label>
             )}
          </div>
