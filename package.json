@@ -1,0 +1,40 @@
+{
+   "name": "use-hooks-zone",
+   "version": "1.0.0",
+   "description": "use-hooks-zone is a custom React hook designed to simplify file upload functionality within React applications. With this hook, developers can easily implement file uploading capabilities without the need to write repetitive code",
+   "type": "module",
+   "main": "dist/index.js",
+   "types": "dist/index.d.ts",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "npx rollup -c"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/riteshmyhub/use-hooks-zone.git"
+   },
+   "keywords": [
+      "react",
+      "nextjs",
+      "typescript",
+      "redux",
+      "file",
+      "uploader",
+      "hook"
+   ],
+   "author": "ritesh goswami",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/riteshmyhub/use-hooks-zone/issues"
+   },
+   "homepage": "https://github.com/riteshmyhub/use-hooks-zone#readme",
+   "devDependencies": {
+      "@rollup/plugin-babel": "^6.0.4",
+      "@rollup/plugin-typescript": "^11.1.6",
+      "@types/react": "^18.2.77",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "rollup": "^4.14.2",
+      "tslib": "^2.6.2"
+   }
+}
