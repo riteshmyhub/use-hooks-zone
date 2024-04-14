@@ -1,16 +1,30 @@
-# use-hooks-zone
+# use-hooks-zone Package
 
-use hooks zone package is helper hooks for building react project.
+## Overview
+
+`use-hooks-zone` is a comprehensive npm package tailored specifically for React applications, offering a diverse range of custom hooks to enhance development efficiency and streamline common tasks. With a focus on simplicity, performance, and versatility, this package empowers developers to seamlessly integrate powerful functionalities into their React projects with minimal effort.
+
+## Installation
+
+You can install `use-hooks-zone` via npm or yarn:
+
+```bash
+npm install use-hooks-zone
+
+```
+
+## Usage
+
+You can install `use-hooks-zone` via npm or yarn:
+
+```jsx
+import { useFileUploader, otherhooks... } from "use-hooks-zone";
+
+```
 
 ## hooks
 
--  useFileUploader hook
-
-## 1 useFileUploader
-
-```bash
-npm i use-hooks-zone
-```
+### 1 . useFileUploader
 
 ```jsx
 import React from "react";
@@ -67,3 +81,11 @@ function App() {
 export default App;
 
 ```
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to contribute to this project.
+
+## License
+
+This package is open-source and available under the MIT License.

@@ -120,13 +120,3 @@ export function useFileUploader({ sizeLimit, limit, allowExtensions, dragAndDrop
    return { files, onSetFile, deleteFile, fileSizeUnit, dragAndDropProps, errors, sizeLimit, allowExtensions };
 }
 
-/*
-   const { files, onSetFile, deleteFile, fileSizeUnit, dragAndDropProps, errors } = useFileUploader({
-      base64: true,
-      dragAndDrop: true,
-      sizeLimit: 1024, //1 MB,
-      limit: 3,
-      allowExtensions: ["png", "jpg", "jpeg", "webp"],
-   });
-
-*/
