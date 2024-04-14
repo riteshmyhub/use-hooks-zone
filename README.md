@@ -15,10 +15,8 @@ npm install use-hooks-zone
 
 ## Usage
 
-You can install `use-hooks-zone` via npm or yarn:
-
 ```jsx
-import { useFileUploader, otherhooks... } from "use-hooks-zone";
+import { all hooks..... } from "use-hooks-zone";
 
 ```
 
