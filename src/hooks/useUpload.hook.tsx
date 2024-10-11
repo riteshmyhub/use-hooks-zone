@@ -94,6 +94,10 @@ export function useFileUploader({ sizeLimit, limit, allowExtensions, dragAndDrop
       });
    };
 
+   const reset = () => {
+      setFiles([]);
+   };
+
    const dragAndDropProps = dragAndDrop
       ? {
            events: {
@@ -117,6 +121,5 @@ export function useFileUploader({ sizeLimit, limit, allowExtensions, dragAndDrop
         }
       : {};
 
-   return { files, onSetFile, deleteFile, fileSizeUnit, dragAndDropProps, errors, sizeLimit, allowExtensions };
+   return { files, onSetFile, deleteFile, fileSizeUnit, dragAndDropProps, errors, sizeLimit, allowExtensions, reset };
 }
-

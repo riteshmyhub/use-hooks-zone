@@ -1,6 +1,6 @@
 {
    "name": "use-hooks-zone",
-   "version": "1.0.3",
+   "version": "1.0.4",
    "description": "Simplify React development with use-hooks-zone: a comprehensive npm package packed with custom hooks for streamlined efficiency and enhanced versatility",
    "type": "module",
    "main": "dist/index.js",
